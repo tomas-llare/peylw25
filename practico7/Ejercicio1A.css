@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    margin: 20px;
+    border: 5px solid darkgray;
+    background-color: gray;
+    margin-right: 1375px;
+    padding: 50px;
+
+}
+#izquierda, #medio, #derecha {
+    margin: 15px;
+    border: 5px solid darkgray;
+    background-color: gray;
+    float: left;
+    height: 750px;
+    padding: 5px; /* Esto mete espacio interno */
+    box-sizing: border-box;
+}
+
+/* Izquierda: arriba-izquierda */
+#izquierda {
+    text-align: left;
+}
+
+/* Centro: arriba-centro */
+#medio {
+    width: 1530px;
+    text-align: center;
+}
+
+/* Derecha: arriba-derecha */
+#derecha {
+    text-align: right;
+}

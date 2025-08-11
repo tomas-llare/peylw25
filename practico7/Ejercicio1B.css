@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    margin: 20px;
+    border: 5px solid darkgray;
+    background-color: gray;
+    margin-right: 700px;
+    padding: 30px;
+}
+
+#caja{
+    display: flex;
+}
+
+#izquierda, #medio{
+    margin: 15px;
+    border: 5px solid darkgray;
+    background-color: gray;
+    height: 600px;
+    padding: 5px;
+}
+
+#izquierda {
+    text-align: left;
+    width: 300px;
+}
+
+#medio {
+    width: 1000px;
+    text-align: center;
+}
+
+#pie{
+    margin: 20px;
+    border: 5px solid darkgray;
+    background-color: gray;
+    margin-right: 700px;
+    padding: 30px; 
+}
