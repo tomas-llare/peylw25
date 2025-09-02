@@ -1,0 +1,3 @@
+en body: cuando quiero que se ejecute al momento de cargar ese lugar específico del html.
+en head: cuando quiero preparar funciones que luego se ejecutan al cargar el body o mediante eventos.
+externo: cuando quiero reutilizar código js en varias páginas y mantener el html más limpio.

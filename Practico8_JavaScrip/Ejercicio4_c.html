@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 4c</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var nombre = prompt("Ingrese su nombre:");
+        var apellido = prompt("Ingrese su apellido:");
+        var estadoCivil = prompt("Ingrese su estado civil:");
+        var edad = prompt("Ingrese su edad:");
+        var fechaNacimiento = prompt("Ingrese su fecha de nacimiento:");
+        var dni = prompt("Ingrese su DNI:");
+
+        var confirmar = confirm("¿Desea mostrar sus datos personales en la página?");
+
+        if(confirmar) {
+            document.write("<h2>Datos Personales</h2>");
+            document.write("Nombre: " + nombre + "<br>");
+            document.write("Apellido: " + apellido + "<br>");
+            document.write("Estado civil: " + estadoCivil + "<br>");
+            document.write("Edad: " + edad + "<br>");
+            document.write("Fecha de nacimiento: " + fechaNacimiento + "<br>");
+            document.write("DNI: " + dni + "<br>");
+            alert("Sus datos han sido impresos");
+        } else {
+            alert("Has cancelado la impresión de los datos.");
+        }
+    </script>
+</body>
+</html>
