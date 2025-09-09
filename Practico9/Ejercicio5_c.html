@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor Monetario</title>
+</head>
+<body>
+    <script src="Ejercicio_c.js"></script>
+    <h1>Conversor Monetario</h1>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" step="any">
+    <br><br>
+    <label for="tipo">Tipo de conversión:</label>
+    <select id="tipo">
+        <option value="pesosADolares">De pesos a dólares</option>
+        <option value="dolaresAPesos">De dólares a pesos</option>
+        <option value="pesosAReales">De pesos a reales</option>
+        <option value="realesAPesos">De reales a pesos</option>
+        <option value="pesosAEuros">De pesos a euros</option>
+        <option value="eurosAPesos">De euros a pesos</option>
+    </select>
+    <br><br>
+    <button onclick="convertir()">Convertir</button>
+    <br><br>
+    <label for="resultado">Resultado:</label>
+    <textarea id="resultado" rows="4" cols="30" readonly></textarea>
+</body>
+</html>
